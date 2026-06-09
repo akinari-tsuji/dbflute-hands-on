@@ -30,3 +30,4 @@
 /mydbflute/intro_resources
 
 # application
+*.log
