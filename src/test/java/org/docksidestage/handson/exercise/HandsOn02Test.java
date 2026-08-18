@@ -2,9 +2,7 @@ package org.docksidestage.handson.exercise;
 
 import javax.annotation.Resource;
 
-import org.dbflute.bhv.readable.CBCall;
 import org.dbflute.cbean.result.ListResultBean;
-import org.docksidestage.handson.dbflute.cbean.MemberCB;
 import org.docksidestage.handson.dbflute.exbhv.MemberBhv;
 import org.docksidestage.handson.dbflute.exentity.Member;
 import org.docksidestage.handson.unit.UnitContainerTestCase;
@@ -67,4 +65,9 @@ public class HandsOn02Test extends UnitContainerTestCase {
 			assertTrue(memberName.startsWith("S"));
 		}
     }
+    
+    // #1on1: section2のエクササイズが飛んでsection3に進んでいるけどまあOK (2026/08/18)
+    // 以下がまだ未実装:
+    // o 会員IDが1の会員を検索
+    // o 生年月日がない会員を検索
 }
